@@ -1,0 +1,336 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@200;300;400;500;600;700&display=swap");
+
+body {
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  width: 400px;
+  border-radius: 8px;
+  padding: 30px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(9px);
+  -webkit-backdrop-filter: blur(9px);
+  background-color: rgba(0, 0, 0, 0.5);
+  margin-top: 20px;
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrapper.active {
+  display: block;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.discover {
+  background-color: red;
+  color: white;
+  border-radius: 80px;
+}
+
+.remember {
+  margin-top: 13px;
+}
+
+.input-field {
+  position: relative;
+  border-bottom: 2px solid #ccc;
+  margin: 15px 0;
+}
+
+.input-field label {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 16px;
+  pointer-events: none;
+  transition: 0.15s ease;
+}
+
+.input-field input {
+  width: 100%;
+  height: 40px;
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #fff;
+}
+
+.input-field input:focus ~ label,
+.input-field input:valid ~ label {
+  font-size: 0.8rem;
+  top: 10px;
+  transform: translateY(-120%);
+}
+
+.forget {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 25px 0 35px 0;
+  color: #fff;
+}
+
+#remember {
+  accent-color: #fff;
+}
+
+.forget label {
+  display: flex;
+  align-items: center;
+}
+
+.forget label p {
+  margin-left: 8px;
+}
+
+.wrapper a {
+  color: #efefef;
+  text-decoration: none;
+}
+
+.wrapper a:hover {
+  text-decoration: underline;
+}
+
+button {
+  background: #fff;
+  color: #000;
+  font-weight: 600;
+  border: none;
+  padding: 12px 20px;
+  cursor: pointer;
+  border-radius: 3px;
+  font-size: 16px;
+  border: 2px solid transparent;
+  transition: 0.3s ease;
+}
+
+button:hover {
+  color: #fff;
+  border-color: #fff;
+  background: rgba(255, 255, 255, 0.15);
+}
+
+.register {
+  text-align: center;
+  margin-top: 30px;
+  color: #fff;
+}
+
+.search-fill {
+  width: 230px !important;
+  height: 20px !important;
+  margin-right: 10px !important;
+}
+
+.search-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.brand {
+  margin-top: 20px;
+  font-family: "Allura", cursive;
+}
+
+.slogan {
+  margin-top: 400px;
+  font-family: "Alexandria", sans-serif;
+}
+
+.discover_button {
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+.socials {
+  cursor: pointer;
+}
+
+.footer {
+  cursor: pointer;
+  justify-content: space-between;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #000000;
+}
+
+.contactus {
+  position: relative;
+  margin-top: 40px;
+}
+
+.contactus img {
+  width: 100%;
+  height: 800px;
+  object-fit: cover;
+  margin-top: -25px;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  max-width: 80%;
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.7);
+}
+
+.contact-form {
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(102, 102, 102, 0.7);
+  padding: 50px;
+  border-radius: 10px;
+  text-align: center;
+  width: 500px;
+  box-shadow: 0 0 10px 10px rgba(102, 99, 99, 0.7);
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  width: calc(100% - 5px);
+  padding: 10px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.contact-form button {
+  background-color: #8a0c0c;
+  font-size: 20px;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #000000;
+  color: white;
+}
+#main {
+  color: #8a8989;
+  text-align: center;
+  font-size: 60px;
+  font-weight: bold;
+  margin-top: 30px;
+  font-style: italic;
+  text-shadow: 0 0 20px rgba(156, 155, 155, 0.7);
+}
+
+.divider {
+  width: 100%;
+  border-top: 1px solid white;
+  margin: 20px 0;
+}
+
+#icon1 {
+  font-size: 30px;
+  margin-top: 20px;
+  color: white;
+  text-align: center;
+}
+#bttn2 {
+  display: block;
+  margin: 20px auto;
+  background-color: #8a0c0c;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  text-align: center;
+  margin-top: 25px;
+}
+#sub {
+  margin-top: 10px;
+  font-size: 15px;
+}
+
+#bttn2:hover {
+  background-color: #333232;
+  color: white;
+  box-shadow: 0 0 10px 10px rgba(138, 12, 12, 0.7);
+}
+
+@media screen and (max-width: 600px) {
+  .contactus img {
+    height: 750px;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 20%;
+  }
+  .contact-form {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    background-color: rgba(102, 102, 102, 0.7);
+    padding: 50px;
+    border-radius: 10px;
+    text-align: center;
+    width: 300px;
+    box-shadow: 0 0 10px 10px rgba(102, 99, 99, 0.7);
+  }
+  .container {
+    margin-top: 80px;
+  }
+}
+
+#headerbttn {
+  color: white;
+  font-size: 20px;
+  margin-right: 20px;
+  margin-left: 100px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: transparent;
+  padding: 10px 20px;
+  line-height: 40px;
+}
+
+#headerbttn:hover {
+  color: white;
+  font-size: 20px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  text-align: center;
+  background-color: #8a0c0c;
+}
