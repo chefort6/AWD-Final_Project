@@ -3,18 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Regalia Royale</title>
+    <title>About Us</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allura|Alexandria|Poppins|Manrope">
-    <link rel="stylesheet" href="./Assets/Style/style.css">
+    <link href="./Assets/style.css" rel="stylesheet">
 </head>
 <body>
-    <div class="container-1">
+  <div class="container-1">
     <nav class="navbar navbar-expand-lg navbar-dark">
         <div class="container-fluid">
             <a class="navbar-brand me-4 ms-5" href="#">
-                <img src="./Assets/Images/logo2.png" width="35" height="me-auto" alt="">
+                <img src="./Assets/logo2.png" width="35" height="me-auto" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -22,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link me-4 ms-5 text-white" href="./Collections/index.html">Collection</a>
+                        <a class="nav-link me-4 ms-5 text-white" href="">Collection</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link me-5 ms-5 text-white" href="./Location/index.html">Location</a>
@@ -44,180 +45,101 @@
             </div>
         </div>
     </nav>
-    </div>
-    
-    <div class="main_page">
-            <div class="col-12 d-flex justify-content-center align-items-center text-white brand">
-                <h1>Regalia Royale</h1>
-            </div>
-            <div class="col-12 d-flex justify-content-center align-items-center text-white slogan">
-                <h6>feel the difference</h6>
-            </div>
-            <div class="col-12 d-flex justify-content-center align-items-center discover_button">
-                <button id="discoverButton" type="button" class="discover">Discover</button>
-            </div>
-    </div>
-
-
-    <div class="container-2">
-        <div class="row">
-            <div class="col-10">
-                <img src="./Assets/Images/discover-page.png" class="d-block w-100" alt="...">
-            </div>
-            <div class="col-2 discover_text">
-                <p class="text-white discover_text">At Momentum Motors, we're not just selling cars; we're shaping the future of transportation. With a commitment to innovation, sustainability, and customer satisfaction, we're setting a new standard for excellence in the automotive industry. Experience the thrill of driving with Momentum Motors and join us on our journey towards a brighter, more sustainable future.</p>
-            </div>
+    <div class="main_page"> 
+      <section>
+        <div class="section left-section">
+            <h2>VISION</h2>
+            <p>Driven by a vision of innovation and leadership, Regalia Royale aims to become a global icon in the automotive world, recognized for our relentless pursuit of excellence and our unwavering commitment to pushing the limits of what's possible. We envision a future where every driver experiences the thrill of driving a Momentum vehicle, knowing they are part of a movement towards a brighter, more sustainable future.</p>
         </div>
-        <div class="row justify-content-end">
-            <div class="col-12 d-flex">
-                <i class="bi bi-chevron-down text-white down" id="downButton"></i>
-            </div>
+        <div class="section right-section">
+            <h2>MISSION</h2>
+            <p>At Regalia Royale, our mission is to revolutionize the automotive industry by providing cutting-edge vehicles that embody the perfect blend of performance, style, and sustainability. We are dedicated to pushing boundaries and setting new standards for excellence, all while prioritizing customer satisfaction and environmental responsibility.</p>
         </div>
-    </div>
-    
-    
-    <div class="container">
-        <div class="row justify-content-center">
-            <div class="col-lg-4">
-                <div class="wrapper" id="loginForm">
-                    <form action="#" class="form"> 
-                        <h2>Login</h2>
-                        <div class="input-field">
-                            <input type="text" required>
-                            <label>Enter your email</label>
-                        </div>
-                        <div class="input-field">
-                            <input type="password" required>
-                            <label>Enter your password</label>
-                        </div>
-                        <div class="forget">
-                            <label for="remember">
-                                <input type="checkbox" id="remember">
-                                <p class="remember">Remember me</p>
-                            </label>
-                            <a href="#" class="text-primary">Forgot password?</a>
-                        </div>
-                        <button type="submit">Log In</button>
-                        <div class="register">
-                            <p>Don't have an account? <a href="#" class="text-danger" id="toggleRegister">Register</a></p>
-                        </div>
-                    </form>
-                </div>
-                <div class="wrapper" id="registerForm" style="display: none;">
-                    <form action="#" class="form"> 
-                        <h2>Register</h2>
-                        <div class="input-field">
-                            <input type="text" required>
-                            <label>Enter your name</label>
-                        </div>
-                        <div class="input-field">
-                            <input type="text" required>
-                            <label>Enter your username</label>
-                        </div>
-                        <div class="input-field">
-                            <input type="text" required>
-                            <label>Enter your email</label>
-                        </div>
-                        <div class="input-field">
-                            <input type="password" required>
-                            <label>Enter your password</label>
-                        </div>
-                        <div class="input-field">
-                            <input type="password" required>
-                            <label>Confirm your password</label>
-                        </div>
-                        <button type="submit">Register</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div id="carousel-cars" class="carousel slide bg-black">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carousel-cars" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carousel-cars" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carousel-cars" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carousel-cars" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carousel-cars" data-bs-slide-to="4" aria-label="Slide 5"></button>
-        </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active ">
-            <img src="./Assets/Images/aurora.png" class="d-block car-image" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Aurora GT</h5>
-                <a href="./Collections/Details/aurora.html"><button type="button" class="btn btn-danger btn-sm explore" id="explorebutton">Explore</button></a>
-            </div>
-            </div>
-            <div class="carousel-item">
-            <img src="./Assets/Images/rapidx.png" class="d-block car-image" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>RapidX SUV</h5>
-                <a href="./Collections/Details/rapidx.html"><button type="button" class="btn btn-danger btn-sm explore" id="explorebutton">Explore</button></a>
-            </div>
-            </div>
-            <div class="carousel-item">
-            <img src="./Assets/Images/eco.png" class="d-block car-image" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>EcoDrive Electric</h5>
-                <a href="./Collections/Details/eco.html"><button type="button" class="btn btn-danger btn-sm explore" id="explorebutton">Explore</button></a>
-            </div>
-            </div>
-            <div class="carousel-item">
-            <img src="./Assets/Images/sedan.png" class="d-block car-image" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Luxor Executive Sedan</h5>
-                <a href="./Collections/Details/sedan.html"><button type="button" class="btn btn-danger btn-sm explore" id="explorebutton">Explore</button></a>
-            </div>
-            </div>
-            <div class="carousel-item">
-            <img src="./Assets/Images/hatchback.png" class="d-block car-image" alt="...">
-            <div class="carousel-caption d-none d-md-block">
-                <h5>Urban Cruiser Hatchback</h5>
-                <a href="./Collections/Details/hatchback.html"><button type="button" class="btn btn-danger btn-sm explore" id="explorebutton">Explore</button></a>
-            </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carousel-cars" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carousel-cars" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-        </div>
-    
-    
-    <footer class="pt-4 my-md-4 border-top text-white text-center bg-black">
-        <div class="container-fluid"> 
-            <div class="row">
-                <div class="col-12 col-md mb-3">
-                    <img class="mb-2" src="./Assets/Images/logo2.png" alt="" width="30" height="auto">
-                    <small class="d-block">&copy; 2024 Regalia Royale</small>
-                </div>
-                <div class="col-6 col-md mb-3 d-flex flex-wrap justify-content-center mt-4"> 
-                    <h6 class="me-3 footer-nav"><a href="./Collections/index.html" class="text-white">Collection</a></h6>
-                    <h6 class="me-3 footer-nav"><a href="./Location/index.html" class="text-white">Location</a></h6>
-                    <h6 class="me-3 footer-nav"><a href="./Contact Us/index.html" class="text-white">Contact Us</a></h6>
-                    <h6 class="me-3 footer-nav"><a href="./About Us/index.html" class="text-white">About Us</a></h6>
-                </div>
-                <div class="col-6 col-md mb-3">
-                    <h5>Follow Us</h5> 
-                    <div>
-                        <i class="bi bi-facebook me-3 socials"></i> 
-                        <i class="bi bi-twitter me-3 socials"></i>
-                        <i class="bi bi-instagram socials"></i>
+    </section>
+  </div>
+  <div class="container">
+    <div class="row justify-content-center">
+        <div class="col-lg-4">
+            <div class="wrapper" id="loginForm">
+                <form action="#" class="form"> 
+                    <h2>Login</h2>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter your email</label>
                     </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Enter your password</label>
+                    </div>
+                    <div class="forget">
+                        <label for="remember">
+                            <input type="checkbox" id="remember">
+                            <p class="remember">Remember me</p>
+                        </label>
+                        <a href="#" class="text-primary">Forgot password?</a>
+                    </div>
+                    <button type="submit">Log In</button>
+                    <div class="register">
+                        <p>Don't have an account? <a href="#" class="text-danger" id="toggleRegister">Register</a></p>
+                    </div>
+                </form>
+            </div>
+            <div class="wrapper" id="registerForm" style="display: none;">
+                <form action="#" class="form"> 
+                    <h2>Register</h2>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter your name</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter your username</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="text" required>
+                        <label>Enter your email</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Enter your password</label>
+                    </div>
+                    <div class="input-field">
+                        <input type="password" required>
+                        <label>Confirm your password</label>
+                    </div>
+                    <button type="submit">Register</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+  <footer class="pt-4 my-md-4 border-top text-white text-center bg-black">
+    <div class="container-fluid"> 
+        <div class="row">
+            <div class="col-12 col-md mb-3">
+                <img class="mb-2" src="./Assets/Images/logo2.png" alt="" width="30" height="auto">
+                <small class="d-block">&copy; 2024 Regalia Royale</small>
+            </div>
+            <div class="col-6 col-md mb-3 d-flex flex-wrap justify-content-center mt-4"> 
+                <h6 class="me-3">Home</h6> 
+                <h6 class="me-3">Location</h6>
+                <h6 class="me-3">Contact Us</h6>
+                <h6 class="me-3">About Us</h6>
+            </div>
+            <div class="col-6 col-md mb-3">
+                <h5>Follow Us</h5> 
+                <div class="socials">
+                    <i class="bi bi-facebook me-3"></i> 
+                    <i class="bi bi-twitter me-3"></i>
+                    <i class="bi bi-instagram"></i>
                 </div>
             </div>
         </div>
-    </footer>
+    </div>
+</footer>
 
-    
-    <script src="./Assets/JS/function.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    
-
+<script src="./Assets/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>
